@@ -1,0 +1,350 @@
+<svg height="1230pt" viewbox="0.00 0.00 1738.37 738.00" width="2897pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="graph" id="graph0" transform="scale(0.6 0.6) rotate(0) translate(4 734)">
+<title>G</title>
+<polygon fill="white" points="-4,4 -4,-734 1734.37,-734 1734.37,4 -4,4" stroke="transparent"></polygon>
+<!-- Account -->
+<g class="node" id="node1">
+<title>Account</title>
+<ellipse cx="48.1" cy="-574" fill="pink" rx="48.19" ry="18" stroke="black"></ellipse>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="48.1" y="-570.3">Account</text>
+</g>
+<!-- AccountActivation -->
+<g class="node" id="node2">
+<title>AccountActivation</title>
+<ellipse cx="941.88" cy="-528" fill="pink" rx="94.78" ry="18" stroke="black"></ellipse>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="941.88" y="-524.3">AccountActivation</text>
+</g>
+<!-- Account&#45;&#45;AccountActivation -->
+<g class="edge" id="edge2">
+<title>Account--AccountActivation</title>
+<path d="M81.7,-560.98C96.8,-555.58 115.14,-549.91 132.19,-547 391.07,-502.87 703.25,-513.08 852.72,-521.78" fill="none" stroke="black"></path>
+</g>
+<!-- AccountInEarlyChurn -->
+<g class="node" id="node3">
+<title>AccountInEarlyChurn</title>
+<ellipse cx="264.78" cy="-674" fill="pink" rx="110.48" ry="18" stroke="black"></ellipse>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="264.78" y="-670.3">AccountInEarlyChurn</text>
+</g>
+<!-- Account&#45;&#45;AccountInEarlyChurn -->
+<g class="edge" id="edge3">
+<title>Account--AccountInEarlyChurn</title>
+<path d="M68.06,-590.51C84.18,-603.83 108.44,-622.22 132.19,-634 153.48,-644.55 178.1,-652.94 200.24,-659.26" fill="none" stroke="black"></path>
+</g>
+<!-- AdherenceFeePayment -->
+<g class="node" id="node6">
+<title>AdherenceFeePayment</title>
+<ellipse cx="574.41" cy="-620" fill="pink" rx="116.98" ry="18" stroke="black"></ellipse>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="574.41" y="-616.3">AdherenceFeePayment</text>
+</g>
+<!-- Account&#45;&#45;AdherenceFeePayment -->
+<g class="edge" id="edge4">
+<title>Account--AdherenceFeePayment</title>
+<path d="M81.73,-586.87C96.83,-592.24 115.17,-597.93 132.19,-601 242.16,-620.85 369.93,-624.26 459.58,-623.51" fill="none" stroke="black"></path>
+</g>
+<!-- Customer -->
+<g class="node" id="node14">
+<title>Customer</title>
+<ellipse cx="264.78" cy="-482" fill="pink" rx="55.79" ry="18" stroke="black"></ellipse>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="264.78" y="-478.3">Customer</text>
+</g>
+<!-- Account&#45;&#45;Customer -->
+<g class="edge" id="edge1">
+<title>Account--Customer</title>
+<path d="M67.57,-557.41C83.59,-543.85 107.95,-525.17 132.19,-514 157.92,-502.14 188.58,-494.35 213.83,-489.44" fill="none" stroke="black"></path>
+</g>
+<!-- RecurrentPaymentSignUp -->
+<g class="node" id="node23">
+<title>RecurrentPaymentSignUp</title>
+<ellipse cx="264.78" cy="-574" fill="pink" rx="132.68" ry="18" stroke="black"></ellipse>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="264.78" y="-570.3">RecurrentPaymentSignUp</text>
+</g>
+<!-- Account&#45;&#45;RecurrentPaymentSignUp -->
+<g class="edge" id="edge5">
+<title>Account--RecurrentPaymentSignUp</title>
+<path d="M96.21,-574C107.19,-574 119.42,-574 132.13,-574" fill="none" stroke="black"></path>
+</g>
+<!-- CommissionLiquidation -->
+<g class="node" id="node12">
+<title>CommissionLiquidation</title>
+<ellipse cx="1288.55" cy="-597" fill="pink" rx="120.48" ry="18" stroke="black"></ellipse>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1288.55" y="-593.3">CommissionLiquidation</text>
+</g>
+<!-- AccountActivation&#45;&#45;CommissionLiquidation -->
+<g class="edge" id="edge8">
+<title>AccountActivation--CommissionLiquidation</title>
+<path d="M1016.4,-539.25C1051.58,-544.93 1094.23,-552.26 1132.31,-560 1163.53,-566.35 1198.03,-574.46 1226.56,-581.47" fill="none" stroke="black"></path>
+</g>
+<!-- Location -->
+<g class="node" id="node16">
+<title>Location</title>
+<ellipse cx="1288.55" cy="-160" fill="pink" rx="50.09" ry="18" stroke="black"></ellipse>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1288.55" y="-156.3">Location</text>
+</g>
+<!-- AccountActivation&#45;&#45;Location -->
+<g class="edge" id="edge7">
+<title>AccountActivation--Location</title>
+<path d="M1015.58,-516.61C1053.89,-507.49 1099.59,-491.35 1132.31,-463 1226.12,-381.72 1270.49,-229.9 1283.4,-177.96" fill="none" stroke="black"></path>
+</g>
+<!-- Sale -->
+<g class="node" id="node24">
+<title>Sale</title>
+<ellipse cx="1288.55" cy="-459" fill="pink" rx="30.59" ry="18" stroke="black"></ellipse>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1288.55" y="-455.3">Sale</text>
+</g>
+<!-- AccountActivation&#45;&#45;Sale -->
+<g class="edge" id="edge6">
+<title>AccountActivation--Sale</title>
+<path d="M1016.4,-516.75C1051.58,-511.07 1094.23,-503.74 1132.31,-496 1177.38,-486.83 1229.27,-474 1260.19,-466.1" fill="none" stroke="black"></path>
+</g>
+<!-- AccountInWinback -->
+<g class="node" id="node4">
+<title>AccountInWinback</title>
+<ellipse cx="574.41" cy="-674" fill="pink" rx="96.68" ry="18" stroke="black"></ellipse>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="574.41" y="-670.3">AccountInWinback</text>
+</g>
+<!-- AccountInEarlyChurn&#45;&#45;AccountInWinback -->
+<g class="edge" id="edge9">
+<title>AccountInEarlyChurn--AccountInWinback</title>
+<path d="M375.54,-674C408.84,-674 445.15,-674 477.47,-674" fill="none" stroke="black"></path>
+</g>
+<!-- CommissionDiscount -->
+<g class="node" id="node11">
+<title>CommissionDiscount</title>
+<ellipse cx="941.88" cy="-712" fill="pink" rx="108.58" ry="18" stroke="black"></ellipse>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="941.88" y="-708.3">CommissionDiscount</text>
+</g>
+<!-- AccountInEarlyChurn&#45;&#45;CommissionDiscount -->
+<g class="edge" id="edge10">
+<title>AccountInEarlyChurn--CommissionDiscount</title>
+<path d="M336.86,-687.68C366.57,-692.81 401.52,-698.1 433.37,-701 571.16,-713.53 730.82,-714.83 833.71,-713.96" fill="none" stroke="black"></path>
+</g>
+<!-- AccountInWinback&#45;&#45;CommissionDiscount -->
+<g class="edge" id="edge11">
+<title>AccountInWinback--CommissionDiscount</title>
+<path d="M659.25,-682.72C716.05,-688.62 791.08,-696.42 849.41,-702.49" fill="none" stroke="black"></path>
+</g>
+<!-- ActivationsGoalAgreement -->
+<g class="node" id="node5">
+<title>ActivationsGoalAgreement</title>
+<ellipse cx="574.41" cy="-382" fill="pink" rx="134.58" ry="18" stroke="black"></ellipse>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="574.41" y="-378.3">ActivationsGoalAgreement</text>
+</g>
+<!-- MasterDealer -->
+<g class="node" id="node17">
+<title>MasterDealer</title>
+<ellipse cx="941.88" cy="-382" fill="pink" rx="74.99" ry="18" stroke="black"></ellipse>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="941.88" y="-378.3">MasterDealer</text>
+</g>
+<!-- ActivationsGoalAgreement&#45;&#45;MasterDealer -->
+<g class="edge" id="edge12">
+<title>ActivationsGoalAgreement--MasterDealer</title>
+<path d="M709.16,-382C762.46,-382 821.76,-382 867.02,-382" fill="none" stroke="black"></path>
+</g>
+<!-- AdherenceFeePayment&#45;&#45;CommissionLiquidation -->
+<g class="edge" id="edge13">
+<title>AdherenceFeePayment--CommissionLiquidation</title>
+<path d="M649.21,-633.88C680.6,-639.11 717.68,-644.43 751.44,-647 920.23,-659.87 965.09,-673.27 1132.31,-647 1172.31,-640.72 1216.06,-625.85 1246.89,-613.95" fill="none" stroke="black"></path>
+</g>
+<!-- BaseCommissionAgreement -->
+<g class="node" id="node7">
+<title>BaseCommissionAgreement</title>
+<ellipse cx="574.41" cy="-436" fill="pink" rx="141.07" ry="18" stroke="black"></ellipse>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="574.41" y="-432.3">BaseCommissionAgreement</text>
+</g>
+<!-- BaseCommissionAgreement&#45;&#45;CommissionLiquidation -->
+<g class="edge" id="edge16">
+<title>BaseCommissionAgreement--CommissionLiquidation</title>
+<path d="M594.39,-453.85C624.8,-481.21 687.54,-532.66 751.44,-555 790.22,-568.56 1029.07,-583.32 1174.57,-591.23" fill="none" stroke="black"></path>
+</g>
+<!-- BaseCommissionAgreement&#45;&#45;MasterDealer -->
+<g class="edge" id="edge14">
+<title>BaseCommissionAgreement--MasterDealer</title>
+<path d="M664.93,-422.08C692.65,-417.82 723.3,-413.16 751.44,-409 793.18,-402.83 840.13,-396.13 876.84,-390.95" fill="none" stroke="black"></path>
+</g>
+<!-- Plan -->
+<g class="node" id="node21">
+<title>Plan</title>
+<ellipse cx="941.88" cy="-436" fill="pink" rx="31.4" ry="18" stroke="black"></ellipse>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="941.88" y="-432.3">Plan</text>
+</g>
+<!-- BaseCommissionAgreement&#45;&#45;Plan -->
+<g class="edge" id="edge15">
+<title>BaseCommissionAgreement--Plan</title>
+<path d="M715.66,-436C787.12,-436 867.76,-436 910.49,-436" fill="none" stroke="black"></path>
+</g>
+<!-- BonusByRecurrentPaymentAgreement -->
+<g class="node" id="node8">
+<title>BonusByRecurrentPaymentAgreement</title>
+<ellipse cx="941.88" cy="-620" fill="pink" rx="190.37" ry="18" stroke="black"></ellipse>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="941.88" y="-616.3">BonusByRecurrentPaymentAgreement</text>
+</g>
+<!-- BonusByRecurrentPaymentAgreement&#45;&#45;CommissionLiquidation -->
+<g class="edge" id="edge17">
+<title>BonusByRecurrentPaymentAgreement--CommissionLiquidation</title>
+<path d="M1097.82,-609.66C1125,-607.85 1152.76,-605.99 1178.37,-604.29" fill="none" stroke="black"></path>
+</g>
+<!-- BonusByZoneAgreement -->
+<g class="node" id="node9">
+<title>BonusByZoneAgreement</title>
+<ellipse cx="941.88" cy="-290" fill="pink" rx="126.18" ry="18" stroke="black"></ellipse>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="941.88" y="-286.3">BonusByZoneAgreement</text>
+</g>
+<!-- BonusByZoneAgreement&#45;&#45;CommissionLiquidation -->
+<g class="edge" id="edge19">
+<title>BonusByZoneAgreement--CommissionLiquidation</title>
+<path d="M1033.34,-302.49C1068.51,-311.64 1106.48,-327.51 1132.31,-355 1173.65,-399.01 1137.02,-434.36 1168.31,-486 1192.2,-525.43 1234.01,-559.65 1261.23,-579.31" fill="none" stroke="black"></path>
+</g>
+<!-- BonusByZoneAgreement&#45;&#45;Location -->
+<g class="edge" id="edge18">
+<title>BonusByZoneAgreement--Location</title>
+<path d="M1047.09,-279.96C1075.35,-275.22 1105.52,-268.24 1132.31,-258 1185,-237.85 1239.04,-198.72 1267.38,-176.48" fill="none" stroke="black"></path>
+</g>
+<!-- Canton -->
+<g class="node" id="node10">
+<title>Canton</title>
+<ellipse cx="264.78" cy="-206" fill="pink" rx="44.39" ry="18" stroke="black"></ellipse>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="264.78" y="-202.3">Canton</text>
+</g>
+<!-- Country -->
+<g class="node" id="node13">
+<title>Country</title>
+<ellipse cx="574.41" cy="-168" fill="pink" rx="48.19" ry="18" stroke="black"></ellipse>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="574.41" y="-164.3">Country</text>
+</g>
+<!-- Canton&#45;&#45;Country -->
+<g class="edge" id="edge21">
+<title>Canton--Country</title>
+<path d="M307.27,-200.88C365,-193.74 469.14,-180.88 528.59,-173.54" fill="none" stroke="black"></path>
+</g>
+<!-- Canton&#45;&#45;Location -->
+<g class="edge" id="edge20">
+<title>Canton--Location</title>
+<path d="M309.14,-206C435.96,-205.7 817.19,-202.66 1132.31,-178 1169.1,-175.12 1210.61,-170.22 1241.45,-166.26" fill="none" stroke="black"></path>
+</g>
+<!-- Parish -->
+<g class="node" id="node19">
+<title>Parish</title>
+<ellipse cx="1518.23" cy="-206" fill="pink" rx="40.09" ry="18" stroke="black"></ellipse>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1518.23" y="-202.3">Parish</text>
+</g>
+<!-- Canton&#45;&#45;Parish -->
+<g class="edge" id="edge23">
+<title>Canton--Parish</title>
+<path d="M300.36,-216.74C379.32,-240.62 579.34,-297.58 751.44,-317 919.65,-335.98 964.7,-340.68 1132.31,-317 1268.32,-297.78 1423.57,-242.15 1487.42,-217.73" fill="none" stroke="black"></path>
+</g>
+<!-- Province -->
+<g class="node" id="node22">
+<title>Province</title>
+<ellipse cx="1679.02" cy="-99" fill="pink" rx="51.19" ry="18" stroke="black"></ellipse>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1679.02" y="-95.3">Province</text>
+</g>
+<!-- Canton&#45;&#45;Province -->
+<g class="edge" id="edge22">
+<title>Canton--Province</title>
+<path d="M292.22,-191.68C381.01,-144.96 677.72,0 940.88,0 940.88,0 940.88,0 1289.55,0 1425.65,0 1463.37,-4.6 1591.67,-50 1614.42,-58.05 1638.11,-71.95 1654.91,-82.89" fill="none" stroke="black"></path>
+</g>
+<!-- CommissionDiscount&#45;&#45;CommissionLiquidation -->
+<g class="edge" id="edge24">
+<title>CommissionDiscount--CommissionLiquidation</title>
+<path d="M1034.93,-702.55C1066.37,-697.73 1101.38,-690.57 1132.31,-680 1180.17,-663.65 1231.03,-633.75 1261.01,-614.65" fill="none" stroke="black"></path>
+</g>
+<!-- PenaltyDetail -->
+<g class="node" id="node20">
+<title>PenaltyDetail</title>
+<ellipse cx="1518.23" cy="-597" fill="pink" rx="73.39" ry="18" stroke="black"></ellipse>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1518.23" y="-593.3">PenaltyDetail</text>
+</g>
+<!-- CommissionLiquidation&#45;&#45;PenaltyDetail -->
+<g class="edge" id="edge25">
+<title>CommissionLiquidation--PenaltyDetail</title>
+<path d="M1409.06,-597C1421.19,-597 1433.24,-597 1444.64,-597" fill="none" stroke="black"></path>
+</g>
+<!-- Department -->
+<g class="node" id="node15">
+<title>Department</title>
+<ellipse cx="941.88" cy="-122" fill="pink" rx="66.89" ry="18" stroke="black"></ellipse>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="941.88" y="-118.3">Department</text>
+</g>
+<!-- Country&#45;&#45;Department -->
+<g class="edge" id="edge28">
+<title>Country--Department</title>
+<path d="M620.22,-162.36C685.69,-154.12 807.64,-138.77 880.82,-129.56" fill="none" stroke="black"></path>
+</g>
+<!-- Country&#45;&#45;Location -->
+<g class="edge" id="edge26">
+<title>Country--Location</title>
+<path d="M622.68,-167.47C751.45,-166.02 1107.48,-162.02 1238.41,-160.55" fill="none" stroke="black"></path>
+</g>
+<!-- Country&#45;&#45;MasterDealer -->
+<g class="edge" id="edge27">
+<title>Country--MasterDealer</title>
+<path d="M591.28,-185.11C620.36,-215.55 685.29,-279.43 751.44,-317 794.53,-341.47 848.34,-358.84 887.59,-369.43" fill="none" stroke="black"></path>
+</g>
+<!-- Municipality -->
+<g class="node" id="node18">
+<title>Municipality</title>
+<ellipse cx="1518.23" cy="-114" fill="pink" rx="68.79" ry="18" stroke="black"></ellipse>
+<text font-family="Times,serif" font-size="14.00" text-anchor="middle" x="1518.23" y="-110.3">Municipality</text>
+</g>
+<!-- Country&#45;&#45;Municipality -->
+<g class="edge" id="edge30">
+<title>Country--Municipality</title>
+<path d="M601.8,-153.17C635.35,-135.25 695.63,-106.11 751.44,-95 1011.98,-43.12 1332.17,-83.77 1460.3,-104.14" fill="none" stroke="black"></path>
+</g>
+<!-- Country&#45;&#45;Parish -->
+<g class="edge" id="edge31">
+<title>Country--Parish</title>
+<path d="M622.09,-170.91C657.56,-173.06 707.56,-175.95 751.44,-178 1029.52,-190.98 1364.64,-201.45 1477.76,-204.84" fill="none" stroke="black"></path>
+</g>
+<!-- Country&#45;&#45;Province -->
+<g class="edge" id="edge29">
+<title>Country--Province</title>
+<path d="M595.21,-151.74C626.23,-127.45 689.19,-82.73 751.44,-66 1082.16,22.89 1503.13,-58.76 1635.93,-88.88" fill="none" stroke="black"></path>
+</g>
+<!-- Customer&#45;&#45;Sale -->
+<g class="edge" id="edge32">
+<title>Customer--Sale</title>
+<path d="M320.78,-480.87C457.83,-478.03 825.61,-470.31 1132.31,-463 1175.97,-461.96 1226.54,-460.63 1257.79,-459.8" fill="none" stroke="black"></path>
+</g>
+<!-- Department&#45;&#45;Location -->
+<g class="edge" id="edge33">
+<title>Department--Location</title>
+<path d="M1004.1,-128.75C1071.71,-136.2 1179.09,-148.04 1240.45,-154.81" fill="none" stroke="black"></path>
+</g>
+<!-- Department&#45;&#45;Municipality -->
+<g class="edge" id="edge34">
+<title>Department--Municipality</title>
+<path d="M1008.76,-121.08C1118.52,-119.55 1337.71,-116.5 1449.01,-114.95" fill="none" stroke="black"></path>
+</g>
+<!-- Location&#45;&#45;Municipality -->
+<g class="edge" id="edge36">
+<title>Location--Municipality</title>
+<path d="M1332.64,-151.29C1369.64,-143.82 1423.16,-133.01 1463.06,-124.95" fill="none" stroke="black"></path>
+</g>
+<!-- Location&#45;&#45;Parish -->
+<g class="edge" id="edge37">
+<title>Location--Parish</title>
+<path d="M1332.64,-168.71C1375.57,-177.38 1440.74,-190.55 1481.06,-198.69" fill="none" stroke="black"></path>
+</g>
+<!-- Location&#45;&#45;Province -->
+<g class="edge" id="edge35">
+<title>Location--Province</title>
+<path d="M1338.08,-162.67C1398.55,-164.7 1504.52,-163.98 1591.67,-141 1613.27,-135.31 1635.92,-124.07 1652.6,-114.64" fill="none" stroke="black"></path>
+</g>
+<!-- MasterDealer&#45;&#45;Sale -->
+<g class="edge" id="edge38">
+<title>MasterDealer--Sale</title>
+<path d="M1011.34,-388.91C1047.57,-393.28 1092.65,-399.86 1132.31,-409 1179.08,-419.78 1231.97,-438.21 1262.37,-449.43" fill="none" stroke="black"></path>
+</g>
+<!-- Parish&#45;&#45;Province -->
+<g class="edge" id="edge39">
+<title>Parish--Province</title>
+<path d="M1549.87,-194.85C1563.18,-189.41 1578.67,-182.25 1591.67,-174 1618.16,-157.19 1644.84,-132.56 1661.39,-116.17" fill="none" stroke="black"></path>
+</g>
+<!-- Plan&#45;&#45;Sale -->
+<g class="edge" id="edge40">
+<title>Plan--Sale</title>
+<path d="M973.16,-438.02C1038.71,-442.39 1193.02,-452.69 1257.94,-457.02" fill="none" stroke="black"></path>
+</g>
+</g>
+</svg>
